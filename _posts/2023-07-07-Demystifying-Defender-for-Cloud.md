@@ -13,6 +13,7 @@ image:
 ---
 
 ## Introduction
+
 Defender for Cloud (DfC) is a cloud-native platform designed to protect multiple workloads, across several environments, by utilising a plethora of capabilities. Defender for Cloud isn’t new, it’s been available to the public since 2019, so why make a blog post on it now? 
 
 Since the start of 2023 Defender for Cloud has cropped up multiple times during my day-to-day, and it seems to hold an air of mystery. During this article we will expand on why I think companies are (wisely) starting to pay more attention to defender for cloud, and dive a little deeper into the architecture. We will look at how all the pieces fit together in the Defender for Cloud puzzle and also how this materialises across multiple environments.
