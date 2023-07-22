@@ -1,10 +1,11 @@
 ---
 title: Demystifying Defender for Cloud
-author: LJ
+Author
 date: 2023-07-07 11:33:00 +0000
 categories: [The Engine Room, Defender for Cloud]
-tags: [dfc]
-pin: true
+tags: [defender for cloud]
+pin: false
+comments: true
 math: true
 mermaid: true
 image:

@@ -1,10 +1,10 @@
 ---
 title: 3CX Defender for Endpoint Hunting Queries
-author: 
 date: 2023-07-08 11:33:00 +0800
 categories: [Keep Calm and KQL, Breach Detection]
-tags: [3cx, threat hunting]
+tags: [defender for endpoint]
 pin: false
+comments: true
 math: true
 mermaid: true
 image:

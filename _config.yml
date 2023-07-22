@@ -3,13 +3,8 @@
 # Import the theme
 theme: jekyll-theme-chirpy
 
-# Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
-# and doesn't have a custom domain.
 baseurl: "https://ljsec.github.io/LJsec"
 
-# The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
-# If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
-# otherwise, the layout language will use the default value of 'en'.
 lang: en
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
@@ -20,10 +15,10 @@ timezone: Europe/London
 
 title: LJsec # the main title
 
-tagline: A security blog focussed around Microsoft security technologies. # it will display as the sub-title
+tagline: A blog focussed around Microsoft security technologies. # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A security blog focused around Microsoft security technologies
+  Microsoft security technology blog
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://LiamWBA.github.io"
@@ -32,20 +27,18 @@ github:
   username: LiamWBA # change to your github username
 
 twitter:
-  username: twitter_username # change to your twitter username
+  username: LJsec_tech # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: LJ
+  name: Liam
   email:  # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
+    - https://www.linkedin.com/in/liam-jones-702a53122/
+    - https://twitter.com/LJsec # change to your twitter homepage
     - https://github.com/LiamWBA # change to your github homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
 
 google_site_verification: # fill in to your verification string
 
@@ -55,17 +48,6 @@ google_site_verification: # fill in to your verification string
 google_analytics:
   id: # fill in your Google Analytics ID
 
-# Prefer color scheme setting.
-#
-# Note: Keep empty will follow the system prefer color by default,
-# and there will be a toggle to switch the theme between dark and light
-# on the bottom left of the sidebar.
-#
-# Available options:
-#
-#     light  - Use the light color scheme
-#     dark   - Use the dark color scheme
-#
 theme_mode: # [light|dark]
 
 # The CDN endpoint for images.
