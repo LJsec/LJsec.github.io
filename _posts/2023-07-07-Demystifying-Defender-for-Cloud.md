@@ -1,6 +1,5 @@
 ---
 title: Demystifying Defender for Cloud
-Author
 date: 2023-07-07 11:33:00 +0000
 categories: [The Engine Room, Defender for Cloud]
 tags: [defender for cloud]
