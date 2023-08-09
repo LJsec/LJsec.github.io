@@ -1,7 +1,7 @@
 ---
 title: Demystifying Defender for Cloud
 date: 2023-07-07 11:33:00 +0000
-categories: [The Engine Room, Defender for Cloud]
+categories: [The Engine Room, Workload Protection]
 tags: [defender for cloud]
 pin: false
 comments: true
@@ -26,7 +26,7 @@ Firstly, changes to Microsoft’s licensing model has influenced a change which 
 
 Microsoft have now deprecated Microsoft Defender for Endpoint for Servers licensing model. This licensing model allowed organisations to onboard servers directly to Defender for Endpoint and remain compliant by purchasing a licence for the onboarded server. When the renewal date arrives, defender for endpoint for servers licensing will not be available to companies using this licensing. This means companies with more than sixty servers need to start utilising Azure-Arc and Defender for Servers.
 
->💬 Companies with less than 60 servers can use a licensing model called defender for business servers.
+> Companies with less than 60 servers can use a licensing model called defender for business servers.
 {: .prompt-tip }
 
 
@@ -36,13 +36,13 @@ The second point is that significant developments in recent releases of the Defe
 
 Part of the confusion around DfC I think is attributed to not necessarily complex architecture but a large one. Depending on the number of environments, onboarding can become overwhelming due to DfC’s requirement of connecting workloads in different environments via different methods. We will cover these in the next sections but let’s try and visualise the product’s coverage first.
 
-![Architecture](/assets/img/EngineeringContent/DfCArchitecture.drawio-2.png)
+![Architecture](/assets/img/EngineRoom/DfCArchitecture.png)
 
 As you can see Defender for Cloud provides security for a lot of different resources. In the sections below we will pick apart each how each of the environments are connected, but before we do that we need to pick apart Defender for Cloud itself. 
 
 Defender for Cloud is like a wrapper, containing within it individual products to protect specific workload types. For example, virtual machines and other server like resources are protected by a capability within Defender for Cloud called Defender for Servers. On the other hand, containers onboarded to Defender for Cloud are protected by Defender for Containers. We can digest this easier by looking at the visual below.
 
-![Structure](/assets/img/EngineeringContent/DFCStructure-2.jpg)
+![Structure](/assets/img/EngineeringContent/DFCStructure.jpg)
 
 ## Onboarding Methods
 
@@ -61,11 +61,11 @@ Direct onboarding allows you to deploy defender for endpoint agents via traditio
 For on-premises Microsoft recommends using Azure Arc, a service which essentially makes your on-premises workloads an Azure resource. Once these resources are joined to Azure, Arc enables simple provisioning of extensions for software such as Defender for Endpoint or the Azure Monitor Agent for log shipping. 
 
 
->💬 Azure Arc is free for onboarding purposes. Arc only becomes a paid service when you begin to manage configurations using Azure Arc. Guest configurations refer to compliance policies or operating system configurations.
+> Azure Arc is free for onboarding purposes. Arc only becomes a paid service when you begin to manage configurations using Azure Arc. Guest configurations refer to compliance policies or operating system configurations.
 {: .prompt-tip }
 
 
->⚠️ Check the Arc pricing before onboarding. At the time of writing connecting SQL instances with Azure Arc is the only paid service. But I wouldn’t be surprised if this changes.
+> Check the Arc pricing before onboarding. At the time of writing connecting SQL instances with Azure Arc is the only paid service. But I wouldn’t be surprised if this changes.
 {: .prompt-warning }
 
 

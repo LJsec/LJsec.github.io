@@ -3,7 +3,7 @@ title: Detecting Homograph Attacks Using KQL
 date: 2023-07-22 11:30:00 +0000
 categories: [Keep Calm and KQL, Alert Rules]
 tags: [kql, sentinel, dfe]
-pin: true
+pin: false
 comments: true
 math: true
 mermaid: true
