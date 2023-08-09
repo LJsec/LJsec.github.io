@@ -9,7 +9,7 @@ math: true
 mermaid: true
 image:
   path: /assets/img/CoverImages/EngineLifecycleWorkflows.png
-  alt: Lifecycle Workflows
+  alt: Lifecycle Workflows Cover
 ---
 
 ## Introduction
