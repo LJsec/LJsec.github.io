@@ -3,7 +3,7 @@ title: Entra ID Lifecycle Workflows
 date: 2023-08-05 22:24:00 +0000
 categories: [The Engine Room, Access and Identity]
 tags: [entra id, lifecycle workflows]
-pin: true
+pin: false
 comments: true
 math: true
 mermaid: true
