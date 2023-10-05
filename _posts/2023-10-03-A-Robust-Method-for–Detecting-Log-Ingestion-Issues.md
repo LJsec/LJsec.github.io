@@ -8,7 +8,7 @@ comments: true
 math: true
 mermaid: true
 image:
-  path: /assets/img/CoverImages/KCKQLLogingestion.png
+  path: /assets/img/CoverImages/KCKQLLogIngestion.png
   alt: Log Ingestion Cover
 ---
 
