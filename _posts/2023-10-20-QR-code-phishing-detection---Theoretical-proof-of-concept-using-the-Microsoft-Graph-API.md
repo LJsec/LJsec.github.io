@@ -18,7 +18,7 @@ Attackers are increasingly utilising QR codes in their phishing campaigns becaus
 
 A QR code (as I am sure most of the people reading this article are aware) is a type of barcode, which has become increasingly popular in day to day life. QR codes are everywhere now, on restaurant tables, on posters, advertisements, food labels, and many more. Perhaps their presence in every day life, increases the chances an unsuspecting user may not think twice about scanning one in an email. Personally, I think they’re suspicious, but I work in cyber security, I’m suspicious of everything that isn’t plain text. 
 
-There aren’t many statistics on QR phishing (dubbed as ‘Quishing’ by the community). One [Securelist Kaspersky article](https://securelist.com/qr-codes-in-phishing/110676/) suggests they have had their day. The article details how the number of detected phishing attacks declined to just 762 in August 2023, from a volume of well over 8500 in June of the this year. However, a number of reputable sources in the community are suggesting that quishing is still on the rise.
+There aren’t many statistics on QR phishing (dubbed as ‘Quishing’ by the community). One [Securelist Kaspersky article](https://securelist.com/qr-codes-in-phishing/110676/) suggests they have had their day. The article details how the number of detected phishing attacks declined to just 762 in August 2023, from a volume of over 5000 in June of the this year. However, a number of reputable sources in the community are suggesting that quishing is still on the rise.
 
 ![Kaspersky statistics](https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2023/09/26143309/01-en-qr-codes-graph.png)
 
