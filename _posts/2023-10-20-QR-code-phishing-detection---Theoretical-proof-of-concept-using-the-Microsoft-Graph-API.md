@@ -28,7 +28,7 @@ QR codes can translate to URLs which redirect to malicious websites, but in an e
 
 QR codes pasted into the email body do come through as “attachments” from what i can see in the Microsoft 365 Explorer.
 
-![Email Entity](assets/img/QRCode/emailEntity.png)
+![Email Entity](/assets/img/QRCode/emailEntity.png)
 
 So the good news is, you can safely determine that any QR code in an email is going to display as an email with an embedded image attachment in the logs. This gives us a starting point for detection.
 
@@ -82,7 +82,7 @@ Pretty standard stuff, although I can’t seem to find this message id anywhere 
 
 The `list messages` API uses a `UPN` too, so our detection rule above should contain all the info we need to start using the API. In order to obtain the ID I have filtered by using the `subject` line.
 
-![Log Results](assets/img/QRCode/Log.png)
+![Log Results](/assets/img/QRCode/Log.png)
 
 You can now list the messages using the API endpoint and filter for the message id value like so.
 
