@@ -8,7 +8,7 @@ comments: true
 math: true
 mermaid: true
 image:
-  path: /assets/img/Coverimages/QRCodes.png
+  path: /assets/img/CoverImages/QRCodes.png
   alt: Detecting QR codes using the Graph API and a custom function application
 ---
 
